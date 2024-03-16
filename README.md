@@ -30,4 +30,4 @@ FixedHeaderTable(
 ```
 
 ![screenshot_1710578364.png](ss%2Fscreenshot_1710578364.png)
-[Video_24-03-16_10-46-11.mp4](ss%2FVideo_24-03-16_10-46-11.mp4)
+![Video_24-03-16_10-46-11.gif](ss%2FVideo_24-03-16_10-46-11.gif)
