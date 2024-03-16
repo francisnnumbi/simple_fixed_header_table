@@ -1,16 +1,30 @@
 # simple_fixed_header_table
 
-A new Flutter project.
+A Flutter tutorial showcasing the use of simple table to achieve the fixed headed table.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+At the end of this tutorial, you will be able to create a simple fixed header table in Flutter.
+The table will have simple data and a fixed header.
+It will have 3 basic attributes :
 
-A few resources to get you started if this is your first Flutter project:
+1. columnWidths : to set the width of each column
+2. header : to set the header of the table, which is the TableRow
+3. rows : to set the rows of the table, which is the List of TableRow
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Prerequisites
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+For the sake of the tutorial you will need the following libraries in your pubspec.yaml file:
+
+1. faker : ^2.1.0 to generate fake data
+2. collection_ext: ^1.0.0 to use an indexed map
+
+## The Output
+
+```
+FixedHeaderTable(
+  columnWidths: {},
+  header: TableRow(children: []),
+    rows: <TableRow>[],
+)
+```
